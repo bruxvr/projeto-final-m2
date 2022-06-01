@@ -14,7 +14,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(./imagens/fundo.png);
+    background: url(./imagens/fundobranco.png);
     background-size:cover ;
     background-position: center;
 }
@@ -41,12 +41,10 @@ header .logo{
 
 header .navegacao a{
     color: #000;
-    background: #fff;
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 1px;
     padding: 2px 15px;
-    border-radius: 20px;
 }
 
 header .navegacao a:not(:last-child){
@@ -109,7 +107,7 @@ header .navegacao a:not(:last-child){
   .icons a{
     position: relative;
     color: #111;
-    font-size: 25px;
+    font-size: 40px;
     transition: 0.3s;
     transition-property: transform;
   }
