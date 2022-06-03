@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Zen+Loop&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: rgb(78, 76, 83);
+}
+
+/* aqui começa o header */
+header{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+/* aqui acaba o header */
+
+
+
+/* vamos para a main */
+input{
+    color: black;
+} /* superfulo */
+.flex{
+    width: 40%;
+    padding: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #59568c;
+}
+main{
+    background-color: #216e63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #585858;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 25px;
+}
+.inputStyle{
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+#faceGoogle{
+    background-color: #ffffff;
+    font-size: 10px;
+    color: black;
+    display: flex;
+    height: 32px;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+figcaption{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#imagemFb{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#imagemGg{
+    margin-left:6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.signin{
+    cursor: pointer;
+}
+/* #send{
+    background-color: #ffffff;
+    font-size: 10px;
+    color: black;
+    display: flex;
+    height: 22px;
+    width: 100%;
+    border: 2px solid rgb(44, 44, 44);
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+
+/* acabou a main */
+
+
+
+/* enfim o footer */
+footer{
+    background-color: rgb(255, 106, 0);
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* acabou o footer */
+
+
+
+/* vamos para o media query 1? */
+
+/* acabou o media query 1 */
+
+
+
+/* vamos para o media query 2? */
+
+/* acabou o media query 2 */
