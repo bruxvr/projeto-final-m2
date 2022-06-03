@@ -1,4 +1,6 @@
-const btn = document.querySelector('#send');
+console.log('oi')
+
+const btn = document.getElementById('btnEnviar');
 btn.addEventListener('click', function (e){
     e.preventDefault
 
