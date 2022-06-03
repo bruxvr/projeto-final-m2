@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Zen+Loop&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+/* body{
+    width: 100%;
+    background: url(/imagens/fundobranco.png) no-repeat center center fixed;
+} */
+.backgorund{
+    background: url(/imagens/fundobranco.png) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+}
+.sect{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+/* aqui começa o header */
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+header .navegacao a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+}
+
+header .navegacao a:not(:last-child){
+    margin-right: 30px;
+  }
+  
+  header .navegacao a:hover{
+    background: #fff;
+  }
+/* aqui acaba o header */
+
+
+
+/* vamos para a main */
+input{
+    color: black;
+} /* superfulo */
+.flex{
+    width: 40%;
+    padding: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerLeo{
+    width: 500px;
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1C2541;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    padding: 25px;
+}
+.inputStyle{
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    width: 100%;
+}
+#faceGoogle{
+    background-color: #ffffff;
+    font-size: 10px;
+    color: black;
+    display: flex;
+    height: 32px;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+figcaption{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#imagemFb{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#imagemGg{
+    margin-left:6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.signin{
+    cursor: pointer;
+}
+h1{
+    font-weight: bold;
+}
+/* acabou a main */
+
+
+
+/* enfim o footer */
+/* footer{
+    background-color: rgb(255, 106, 0);
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #ff0000;
+}
+/* acabou o footer */
+
+
+
+/* vamos para o media query 1? */
+
+/* acabou o media query 1 */
+
+
+
+/* vamos para o media query 2? */
+
+/* acabou o media query 2 */

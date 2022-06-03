@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Solucion-E</title>
+
+    <link rel="stylesheet" href="/css/login.css">
+    <script src="/js/valida.js" defer ></script>
+</head>
+<body>
+    
+    <header>
+        <h2><a href="/./index.html" class="logo">SOLUCION-E</a></h2>
+        <div class="navegacao">
+            <a href="/./index.html">Home</a>
+            <a href="">Login</a>
+            <a href="">Cadastro</a>
+            <a href="">Planos</a>
+            <a href="">Contatos</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="flex">
+            <form action="">
+            <div class="container">
+                <p>Faça seu login!</p>
+                <input type="email" autofocus class="inputStyle" id="Oemail" placeholder="Email" required>
+                <input type="password" class="inputStyle" id="password" placeholder="Senha" maxlength="10" required>
+                
+                <div id="faceGoogle" onclick="face()" class="signin">
+                    
+                    <img src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-0.png" id="imagenFb" width="30rem"
+                    alt="Entrar com Facebook">
+                    <figcaption id="signinF">Entrar com Facebook</figcaption>
+                    
+                </div>
+
+                <div id="faceGoogle" onclick="goo()" class="signin" >
+                    <img src="https://logopng.com.br/logos/google-37.svg" id="imagemGg"  width="18rem"
+                    alt="Entrar com Google">
+                    <figcaption id="signinG">Entrar com Google</figcaption>
+                </div>
+                
+                <a href="forgotpassword.html">Esqueci Senha</a>
+                <a href=""><input type="submit" id="send" value="Entrar"></a>
+                
+            </div>
+
+            <div>
+                
+            </div>
+            </form>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>Todos direitos...</p>
+        <a href="">Contatos</a>
+    </footer>
+</body>
+</html>
