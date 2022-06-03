@@ -17,6 +17,7 @@ section{
     background: url(./imagens/fundobranco.png);
     background-size:cover ;
     background-position: center;
+
 }
 
 header{
@@ -218,3 +219,31 @@ header .navegacao a:not(:last-child){
       font-size: 14px;
     }
   }
+
+  /*  página de serviços  */
+body main .card:hover {
+    background-color: #58B7D3;
+    color: white;
+    cursor: pointer;
+}
+
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
