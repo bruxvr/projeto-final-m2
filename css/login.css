@@ -11,7 +11,7 @@
     background: url(/imagens/fundobranco.png) no-repeat center center fixed;
 } */
 .backgorund{
-    background: url(/imagens/fundobranco.png) no-repeat center center fixed;
+    background: url(../assets/fundobranco.png) no-repeat center center fixed;
     background-size: cover;
     width: 100%;
 }
@@ -136,15 +136,7 @@ h1{
 
 
 
-/* enfim o footer */
-/* footer{
-    background-color: rgb(255, 106, 0);
-    width: 100%;
-    height: 6rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-} */
+
 .icons{
     display: flex;
     justify-content: space-around;
