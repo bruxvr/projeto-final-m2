@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(./imagens/fundobranco.png);
+    background: url(./imagens/fundo.png);
     background-size:cover ;
     background-position: center;
 
@@ -219,13 +219,6 @@ header .navegacao a:not(:last-child){
       font-size: 14px;
     }
   }
-
-  /*  página de serviços  */
-body main .card:hover {
-    background-color: #58B7D3;
-    color: white;
-    cursor: pointer;
-}
 
 /* scroll bar */
 /* width */
