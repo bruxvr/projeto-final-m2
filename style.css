@@ -7,7 +7,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-section{
+body{
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -129,7 +129,7 @@ header .navegacao a:not(:last-child){
   /* Responsive CSS */
   
   @media (max-width: 960px){
-    header .navigation{
+    header .navegacao{
       display: none;
     }
   
@@ -149,7 +149,7 @@ header .navegacao a:not(:last-child){
       display: none;
     }
   
-    #check:checked ~ header .navigation{
+    #check:checked ~ header .navegacao{
       z-index: 2;
       position: fixed;
       top: 0;
@@ -163,7 +163,7 @@ header .navegacao a:not(:last-child){
       align-items: center;
     }
   
-    #check:checked ~  header .navigation a{
+    #check:checked ~  header .navegacao a{
       font-weight: 700;
       margin-right: 0;
       margin-bottom: 50px;
@@ -189,33 +189,33 @@ header .navegacao a:not(:last-child){
       bottom: -6px;
     }
   
-    .content .info h2{
+    .conteudo .informacao h2{
       font-size: 45px;
       line-height: 50px;
     }
   
-    .content .info h2 span{
+    .conteudo .informacao h2 span{
       font-size: 40px;
       font-weight: 600;
     }
   
-    .content .info p{
+    .conteudo .informacao p{
       font-size: 14px;
     }
   }
   
   @media (max-width: 560px){
-    .content .info h2{
+    .conteudo .informacao h2{
       font-size: 35px;
       line-height: 40px;
     }
   
-    .content .info h2 span{
+    .conteudo .informacao h2 span{
       font-size: 30px;
       font-weight: 600;
     }
   
-    .content .info p{
+    .conteudo .informacao p{
       font-size: 14px;
     }
   }
@@ -247,3 +247,4 @@ body main .card:hover {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
