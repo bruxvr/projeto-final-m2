@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(./imagens/fundobranco.png);
+    background: url(assets/fundobranco.png);
     background-size:cover ;
     background-position: center;
 
