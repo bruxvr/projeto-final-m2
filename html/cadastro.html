@@ -6,44 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se</title>
     <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            
-            <div class="col-6">
-                <h1>Contato</h1>
-                <form>
-                    <div class="form-group">
-                        <label>Nome</label>
-                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
-                    </div><br>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input class="form-control" type="email" name="email" id="email" placeholder="Digite o seu e-mail">
-                    </div><br>
-                    <div class="form-group">
-                        <label for="password">Senha:</label>
-                        <input type="password" name="password" id="password" placeholder="Digite sua senha">
-                    </div><br>
-                    <div class="form-group">
-                        <label for="password-confirm">Confirme sua senha:</label>
-                        <input type="password-confirm" name="password-confirm" id="password-confirm" placeholder="Digite sua senha novamente">
-                    </div><br>
-                    <div class="form-group">
-                        <label for="rg">RG:</label>
-                        <input type="number" name="password-confirm" id="password-confirm" placeholder="Digite seu RG">
-                    </div><br>
-                    <div class="form-group">
-                        <button type="submit" class="">ENVIAR</button>
-                    </div>
-                </form>
-            </div>
-
+    <header>
+        <h2><a href="#" class="logo"><img src="../imagens/logo.png" alt=""></a></h2>
+        <div class="navegacao">
+            <a href="../index.html">Home</a>
+            <a href="/html/login.html">Login</a>
+            <a href="./cadastro.html">Cadastro</a>
+            <a href="">Planos</a>
+            <a href="">Contatos</a>
         </div>
-    </div>
+    </header>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça seu cadastro e entre <br> para o nosso time SOLUCION-E</h1>
+            <img src="../imagens/figure.svg" alt="figura">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>FAÇA SEU CADASTRO</h1>
+                <div class="text-field">
+                    <label for="usuario">Nome completo</label>
+                    <input type="text" name="nome" placeholder="Nome completo">
+                </div>
 
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+                <div class="text-field">
+                    <label for="RG">RG</label>
+                    <input type="RG" name="RG" placeholder="RG">
+                </div>
+
+                <div class="text-field">
+                    <label for="data de nascimento">Data de nascimento </label>
+                    <input type="date" name="data" placeholder="Data de nascimento">
+                </div>
+
+                <div class="text-field">
+                    <label for="email">Email </label>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+
+                <div class="text-field">
+                    <label for="senha>Senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha"> 
+                </div>
+
+                <div class="text-field">
+                    <label for="senha>Senha">Confirme sua senha</label>
+                    <input type="password" name="senha" placeholder="Senha"> 
+                </div>
+                <button class="btn-login">ENVIAR</button>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
