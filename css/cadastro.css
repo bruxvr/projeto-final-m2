@@ -1,0 +1,149 @@
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+header .navegacao a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+}
+
+header .navegacao a:not(:last-child){
+    margin-right: 30px;
+  }
+  
+  header .navegacao a:hover{
+    background: #fff;
+  }
+
+  body
+  {
+  margin: 0px;
+  font-family: 'Oswald', sans-serif;
+  background-image: url(../imagens/fundo.png);
+  }
+  
+  .main-login
+  {
+      width: 90vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .left-login
+  {
+      width: 50 vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  
+  .left-login > h1
+  {
+      color: rgb(9, 63, 148);
+      font-size: 4vh;
+  }
+  
+  .right-login
+  {
+      width: 50vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .card-login
+  {
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction:column;
+      padding: 30px 35px;
+      background: #71a5aa;
+      box-shadow: 0px 10px 40px #00000056;
+      
+  }
+  .card-login > h1
+  {
+      color: #1a2222;
+      font-weight: 800;
+      margin: 0;
+  }
+  
+  .text-field
+  {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      margin: 10px 0px;
+      width: 100%;
+      height: 50px;
+  }
+  
+  .text-field > input
+  {
+      width: 100%;
+      height: 30px;
+      border:  none;
+      border-radius: 10px;
+      padding: 15px;
+      background: #aacdce;
+      color: #e1ecf493;
+      font-size: 12pt;
+      outline: none;
+      box-sizing: border-box;
+      margin: 2px;
+  }
+  
+  .text-field > label
+  {
+      color: #0d0d0b;
+      margin-bottom: 8px;
+  }
+  
+  .text-field > input::placeholder
+  {
+      color: #cbe8e8;
+  }
+  
+  .btn-login
+  {
+      width: 50%;
+      padding: 16px 0px;
+      margin: 25px;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 2px;
+      color: #ffffff;
+      background: #1c1e1f93;
+      cursor: pointer;
+      box-shadow: 0px 10px 40px --12px #cbf427;
+  }
+  

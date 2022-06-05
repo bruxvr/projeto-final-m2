@@ -5,62 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale conosco</title>
-    <link rel="stylesheet" type="text/css" href="./contato.css" media="screen">
-
+    <!-- CSS bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- CSS contatos -->
+    <link rel="stylesheet" type="text/css" href="../css/contato.css" media="screen">
+    
+ 
 </head>
 <body>
 
+<!--Cabeçalho-->
     <header>
-
+          <nav class="navbar navbar-expand-lg  fixed-top">
+            <div class="container-fluid cabecalho">
+                <img src="../assets/logo.png" alt="Logo da empresa Solucione" width="134" height="36">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end  " id="navbarNav">
+                <ul class="navbar-nav navegador">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Cadastro</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Planos</a>                  
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contatos</a>                  
+                </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
+<!--Titulo e Subtitulo-->
     <nav class=" titulo"> <h1>FALE CONOSCO</h1>
         <p class="subtitulo">Estamos aqui para te ajudar! Vamos juntos construir um ecossistema de pessoas colaborativas e inclusivas</p>
         <h2>Conheça o nosso time de especialistas:</h2>
     </nav>
+
+<!--Caixa time de especialistas-->
     <section class="flex">
 
         <div>
-            <img src="./img/bruna.gif" alt='Diretora e fundadora da Solucione'width="210px" height="210">
+            <img src="../assets/bruna.png" alt='Diretora e fundadora da Solucione'width="200px" height="200">
             <h3>Bruna Xavier</h3>
             <p>CEO e Founder</p>
             <p>
-                <img src="./img/icon-github.png"width="20px" height="20">
-                <img src="./img/icon-linkedin.png"width="20px" height="20">
-                <img src="./img/icon-instagram.png"width="20px" height="20">
+              <a href="https://github.com/bruxvr"><img  src="../assets/icon-github.png"  width="20px" height="20"></a>
+              <a href="https://www.linkedin.com/in/brunarxavier/"><img src="../assets/icon-linkedin.png"width="20px" height="20"></a>
             </p>
         </div>
         <div>
-            <img src="./img/carol.gif" alt='Vice diretora da Solucione'width="210px" height="210">
+            <img src="../assets/carol.png" alt='Vice diretora da Solucione'width="200px" height="200">
             <h3>Caroline Araújo</h3>
             <p>Co-Founder</p>
             <p>
-                <img src="./img/icon-github.png"width="20px" height="20">
-                <img src="./img/icon-linkedin.png"width="20px" height="20">
-                <img src="./img/icon-instagram.png"width="20px" height="20">
+              <a href="https://github.com/carolfranca0310"><img  src="../assets/icon-github.png"  width="20px" height="20"></a>
+              <a href="https://www.linkedin.com/in/caroline-ara%C3%BAjo-de-fran%C3%A7a-a59a14227/"><img src="../assets/icon-linkedin.png"width="20px" height="20"></a>
             </p>
         </div>
         <div>
-            <img src="./img/leo.gif" alt='Diretor de TI da Solucione'width="210px" height="210">
+            <img src="../assets/leo.png" alt='Diretor de TI da Solucione'width="200px" height="200">
             <h3>Leonardo Iplinsky</h3>
             <p>Diretor de TI</p>
             <p>
-                <img src="./img/icon-github.png"width="20px" height="20">
-                <img src="./img/icon-linkedin.png"width="20px" height="20">
-                <img src="./img/icon-instagram.png"width="20px" height="20">
+              <a href="https://github.com/IplinskyLeo"><img  src="../assets/icon-github.png"  width="20px" height="20"></a>
+              <a href="https://www.linkedin.com/in/iplinsky/"><img src="../assets/icon-linkedin.png"width="20px" height="20"></a>
             </p>
         </div>
         <div>
-            <img src="./img/isabella.gif" alt='Estrategista da Solucione'width="210px" height="210">
+            <img src="../assets/isabella.png" alt='Estrategista da Solucione'width="200px" height="200">
             <h3>Isabella Oliveira</h3>
             <p>Estrategista</p>
             <p>
-                <img src="./img/icon-github.png"width="20px" height="20">
-                <img src="./img/icon-linkedin.png"width="20px" height="20">
-                <img src="./img/icon-instagram.png"width="20px" height="20">
+              <a href="https://github.com/isabellaoliv"><img  src="../assets/icon-github.png"  width="20px" height="20"></a>
+              <a href="https://www.linkedin.com/in/isabella-oliveira-93345a192/"><img src="../assets/icon-linkedin.png"width="20px" height="20"></a>
             </p>
         </div>
+
     </section>
+
+
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     
 </body>
 </html>
