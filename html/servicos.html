@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/servicos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Solucion-E: serviços</title>
 </head>
@@ -13,63 +13,138 @@
   <header>
     <h2><a href="#" class="logo"><img src="./imagens/logo.png" alt=""></a></h2>
     <div class="navegacao">
-        <a href="">Home</a>
-        <a href="">Login</a>
-        <a href="">Cadastro</a>
-        <a href="">Planos</a>
-        <a href="">Contatos</a>
+        <a href="/index.html">Home</a>
+        <a href="/html/login.html">Login</a>
+        <a href="/html/cadastro.html">Cadastro</a>
+        <a href="/html/servicos.html">Planos</a>
+        <a href="/html/contato.html">Contatos</a>
     </div>
 </header>
     <main>
+      
+      <section class="d-flex">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 imgct">
+              <img src="../assets/preço.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Preço justo</h5>
+                <p class="card-text">A Solucion-E trabalha com um sistema de pagamento e remuneração compatíveis com a qualidade do serviço, de forma que caiba no bolso do aluno e que seja justo com a qualificação do profissional, que passou por um rigoroso processo de recrutamento.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 imgct">
+              <img src="../assets/tempo.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">A qualquer hora</h5>
+                <p class="card-text">Nossa plataforma conta com opções de agendamento e o modo just-in-time, que mostra os profissionais que se encontram online e disponíveis para atendê-lo em qualquer momento do dia.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 imgct">
+              <img src="../assets/dispositivos.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Compatibilidade com vários dispositivos</h5>
+                <p class="card-text">A plataforma Solucion-E conta com compatibilidade com celular, desktop, tablet e mais. Acesse de qualquer lugar.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 imgct">
+              <img src="../assets/qualidade.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Qualidade</h5>
+                <p class="card-text">Contamos com profissionais altamente qualificados e capacitados a transmitirem conhecimento. Confiabilidade atestada por mais de 300 usuários ativos que fazem feedbacks para o controle da qualidade da plataforma.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h2>Nossos planos</h2>
         <div class="row row-cols-1 row-cols-md-4 g-4">
             <div class="col">
               <div class="card h-100">
-                <img src="./assets/preço.png" class="card-img-top" alt="...">
+                <img src="../assets/fosforo.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Preço justo</h5>
-                  <p class="card-text">A Solucion-E trabalha com um sistema de pagamento e remuneração compatíveis com a qualidade do serviço, de forma que caiba no bolso do aluno e que seja justo com a qualificação do profissional, que passou por um rigoroso processo de recrutamento.</p>
+                  <h5 class="card-title">Basicão (e funcional)</h5>
+                    <ul class="card-text">
+                      <li>2 créditos de mentoria ou consultoria.
+                    <h2>$50 E-coins</h2>
+                  <a href="./login.html" class="btn btn-primary">Assine</a>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-100">
-                <img src="./assets/tempo.png" class="card-img-top" alt="...">
+                <img src="../assets/vela.png" class="card-img-top mg-top img-plan" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">A qualquer hora</h5>
-                  <p class="card-text">Nossa plataforma conta com opções de agendamento e o modo just-in-time, que mostra os profissionais que se encontram online e disponíveis para atendê-lo em qualquer momento do dia.</p>
+                  <h5 class="card-title">Plus</h5>
+                  <ul class="card-text">
+                    <li>5 créditos de mentoria ou consultoria</li>
+                    <li>1 aula de inglês exclusiva focada no mercado tech.</li></ul>
+                    <h2>$100 E-coins</h2>
+                  <a href="./login.html" class="btn btn-primary">Assine</a>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-100">
-                <img src="./assets/dispositivos.png" class="card-img-top" alt="...">
+                <img src="../assets/lampiao.png" class="card-img-top mg-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Compatibilidade com vários dispositivos</h5>
-                  <p class="card-text">A plataforma Solucion-E conta com compatibilidade com celular, desktop, tablet e mais. Acesse de qualquer lugar.</p>
+                  <h5 class="card-title">Gold</h5>
+                  <ul class="card-text">
+                    <li>10 créditos de consultoria ou mentoria</li>
+                    <li>2 aulas de inglês exclusivas focadas no mercado tech</li> 
+                    <li>1 mentoria de soft skills.</li>
+                    <h2>$150 E-coins</h2>
+                  <a href="./login.html" class="btn btn-primary">Assine</a>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-100">
-                <img src="./assets/qualidade.png" class="card-img-top" alt="...">
+                <img src="../assets/lampada.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Qualidade</h5>
-                  <p class="card-text">Contamos com profissionais altamente qualificados e capacitados a transmitirem conhecimento. Confiabilidade atestada por mais de 300 usuários ativos que fazem feedbacks para o controle da qualidade da plataforma.</p>
+                  <h5 class="card-title">Premium</h5>
+                  <ul class="card-text">
+                    <li>Plano mensal.</li> 
+                    <li>7 créditos de consultoria ou mentoria semanais e não cumulativos<li>
+                    <li>1 aula diária de inglês focado no mercado tech</li>
+                    <li>2 mentorias semanais de soft skills.<li>
+                    <h2>$200 E-coins</h2>
+                  <a href="./login.html" class="btn btn-primary">Assine</a>
                 </div>
               </div>
             </div>
           </div>
     </main>
 
-
-    <footer>
-      <div class="icons">
-        <a href="https://www.linkedin.com/in/isabella-oliveira-93345a192/"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://www.linkedin.com/in/brunarxavier/"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://www.linkedin.com/in/iplinsky/"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://www.linkedin.com/in/caroline-ara%C3%BAjo-de-fran%C3%A7a-a59a14227/"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/bruxvr/projeto-final-m2"><i class="fa-brands fa-github"></i></a>
-    </div>
+    
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     </footer>
