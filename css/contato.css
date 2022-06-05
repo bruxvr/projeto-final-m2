@@ -5,13 +5,17 @@ padding: 0%;
 text-align: center;
 
 }
-
+.navbar {
+    background: none;
+    padding: 15px;
+}
 
 .navegador a {
 color: #000;
 }
 body{
     font-family: "Poppins", sans-serif;
+    background: url(../assets/fundobranco.png);
 }
 nav{
     margin-bottom: 50px;
@@ -20,18 +24,18 @@ nav{
 nav h1{
     margin-top: 80px;
     font-size: 40px;
-    color: #226A80;
+    color: #3A506B
 }
 
 nav p{
     font-size: 20px;
-    color: #3a5068;
+    color: #3A506B;
 }
 
 nav h2{
     margin-top: 30px;
     font-size: 25px;
-    color: #226A80;
+    color: #3A506B;
 }
 
 section{
