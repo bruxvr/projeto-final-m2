@@ -98,29 +98,6 @@ header .navegacao a:not(:last-child){
     background: #0C4F60;
   }
   
-  .icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-  }
-  
-  .icons a{
-    position: relative;
-    color: #111;
-    font-size: 40px;
-    transition: 0.3s;
-    transition-property: transform;
-  }
-  
-  .icons a:not(:last-child){
-    margin-right: 60px;
-  }
-  
-  .icons a:hover{
-    transform: scale(1.5);
-  }
-  
   #check{
     z-index: 3;
     display: none;
