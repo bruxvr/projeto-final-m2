@@ -39,7 +39,7 @@ header .navegacao a:not(:last-child){
   {
   margin: 0px;
   font-family: 'Oswald', sans-serif;
-  background-image: url(../imagens/fundo.png);
+  background-image: url(../assets/fundobranco.png);
   }
   
   .main-login
