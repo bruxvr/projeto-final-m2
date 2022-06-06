@@ -11,97 +11,76 @@
 </head>
 <body>
   <header>
-    <h2><a href="#" class="logo"><img src="./imagens/logo.png" alt=""></a></h2>
-    <div class="navegacao">
-        <a href="/index.html">Home</a>
-        <a href="/html/login.html">Login</a>
-        <a href="/html/cadastro.html">Cadastro</a>
-        <a href="/html/servicos.html">Planos</a>
-        <a href="/html/contato.html">Contatos</a>
-    </div>
+    <nav class="navbar navbar-expand-lg  fixed-top">
+      <div class="container-fluid cabecalho">
+          <img src="../assets/logo.png" alt="Logo da empresa Solucione" width="134" height="36">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end  " id="navbarNav">
+          <ul class="navbar-nav navegador">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/cadastro.html">Cadastro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/servicos.html">Planos</a>                  
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/html/contato.html">Contatos</a>                  
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 </header>
+
     <main>
-      
-      <section class="d-flex">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4 imgct">
-              <img src="../assets/preço.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Preço justo</h5>
-                <p class="card-text">A Solucion-E trabalha com um sistema de pagamento e remuneração compatíveis com a qualidade do serviço, de forma que caiba no bolso do aluno e que seja justo com a qualificação do profissional, que passou por um rigoroso processo de recrutamento.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                
+      <h2>Nosso diferencial</h2>
+        <div class="row">
+          <div class="col-md-4">
+              <div class="dif-card">
+                  <div class="dif-icon">
+                      <img src="/assets/tempo.png" alt="agenda">
+                  </div>
+                  <div class="dif-text">
+                      <h5>A qualquer hora</h5>
+                      <p>Opções de agendamento e o modo just-in-time, que mostra os profissionais que se encontram online e disponíveis para te ajudar a qualquer momento do dia.</p>
+                  </div>
               </div>
             </div>
-          </div>
-        </div>
-      
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4 imgct">
-              <img src="../assets/tempo.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">A qualquer hora</h5>
-                <p class="card-text">Nossa plataforma conta com opções de agendamento e o modo just-in-time, que mostra os profissionais que se encontram online e disponíveis para atendê-lo em qualquer momento do dia.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div class="col-md-4">
+              <div class="dif-card">
+                  <div class="dif-icon">
+                      <img src="/assets/qualidade.png" alt="dispositivos">
+                  </div>
+                  <div class="dif-text">
+                      <h5>Qualidade</h5>
+                      <p>Profissionais altamente qualificados e capacitados. Confiabilidade atestada por mais de 300 usuários ativos que fazem feedbacks para o controle da qualidade da plataforma.</p>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
-        
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4 imgct">
-              <img src="../assets/dispositivos.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Compatibilidade com vários dispositivos</h5>
-                <p class="card-text">A plataforma Solucion-E conta com compatibilidade com celular, desktop, tablet e mais. Acesse de qualquer lugar.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div class="col-md-4">
+              <div class="dif-card">
+                  <div class="dif-icon">
+                      <img src="/assets/preço.png" alt="preço">
+                  </div>
+                  <div class="dif-text">
+                      <h5>Preço justo</h5>
+                      <p>Pagamento por um sistema de moedas chamado E-coins que não expiram e podem ser gastas futuramente. Além disso, nossos serviços têm valor justo para o usuário e para o profissional.</p>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
-
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4 imgct">
-              <img src="../assets/qualidade.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Qualidade</h5>
-                <p class="card-text">Contamos com profissionais altamente qualificados e capacitados a transmitirem conhecimento. Confiabilidade atestada por mais de 300 usuários ativos que fazem feedbacks para o controle da qualidade da plataforma.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <h2>Nossos planos</h2>
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col">
+<!-- 
+      <h2>Nossos planos</h2> -->
+            <!-- <div class="col">
               <div class="card h-100">
-                <img src="../assets/fosforo.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Basicão (e funcional)</h5>
-                    <ul class="card-text">
-                      <li>2 créditos de mentoria ou consultoria.
-                    <h2>$50 E-coins</h2>
-                  <a href="./login.html" class="btn btn-primary">Assine</a>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="../assets/vela.png" class="card-img-top mg-top img-plan" alt="...">
+                <img src="../assets/vela.png" class="card-img-top mg-top img-plan" alt="vela">
                 <div class="card-body">
                   <h5 class="card-title">Plus</h5>
                   <ul class="card-text">
@@ -114,7 +93,7 @@
             </div>
             <div class="col">
               <div class="card h-100">
-                <img src="../assets/lampiao.png" class="card-img-top mg-top" alt="...">
+                <img src="../assets/lampiao.png" class="card-img-top mg-top" alt="lampião">
                 <div class="card-body">
                   <h5 class="card-title">Gold</h5>
                   <ul class="card-text">
@@ -128,12 +107,12 @@
             </div>
             <div class="col">
               <div class="card h-100">
-                <img src="../assets/lampada.png" class="card-img-top" alt="...">
+                <img src="../assets/lampada.png" class="card-img-top" alt="lâmpada">
                 <div class="card-body">
                   <h5 class="card-title">Premium</h5>
                   <ul class="card-text">
                     <li>Plano mensal.</li> 
-                    <li>7 créditos de consultoria ou mentoria semanais e não cumulativos<li>
+                    <li>7 créditos de consultoria ou mentoria semanais e não cumulativos</li>
                     <li>1 aula diária de inglês focado no mercado tech</li>
                     <li>2 mentorias semanais de soft skills.<li>
                     <h2>$200 E-coins</h2>
@@ -141,7 +120,73 @@
                 </div>
               </div>
             </div>
+          </div> -->
+
+          <h2>Nossos planos</h2>
+          
+          <section class="planos d-flex">
+            <div class="cartao d-flex flex-column">
+              <img src="../assets/fosforo.png" alt="fósforo">
+              <h5 class="card-title">Basicão (e funcional)</h5>
+                <ul>
+                  <li>2 créditos de mentoria ou consultoria.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing. </li>
+                </ul>
+
+              <div>
+                <h2>$50 E-coins</h2>
+                <a href="./login.html" class="btn btn-primary">Assine</a>
+              </div>
+            </div>
+            <!-- PLANO PLUS -->
+            <div class="cartao d-flex flex-column">
+              <img src="../assets/vela.png" alt="vela">
+              <h5 class="card-title">Plus</h5>
+                  <ul>
+                    <li>5 créditos de mentoria ou consultoria</li>
+                    <li>1 aula de inglês exclusiva focada no mercado tech.</li>
+                  </ul>
+                    <div>
+                      <h2>$100 E-coins</h2>
+                    <a href="./login.html" class="btn btn-primary">Assine</a>
+                  </div>
+              </div>
+            <!-- PLANO GOLD -->
+            <div class="cartao d-flex flex-column">
+              <img src="../assets/lampiao.png" alt="lampião">
+              <h5 class="card-title">Gold</h5>
+                  <ul>
+                    <li>10 créditos de consultoria ou mentoria</li>
+                    <li>2 aulas de inglês exclusivas focadas no mercado tech</li> 
+                    <li>1 mentoria de soft skills.</li>
+                  </ul>
+                    <div>
+                      <h2>$150 E-coins</h2>
+                      <a href="./login.html" class="btn btn-primary">Assine</a>
+                    </div>
+            </div>
+
+            <!-- PLANO PREMIUM -->
+            <div class="cartao d-flex flex-column">
+              <img src="../assets/lampada.png" alt="lâmpada">
+              <h5 class="card-title">Premium</h5>
+              <ul>
+                <li>Plano mensal.</li> 
+                <li>7 créditos de consultoria ou mentoria semanais e não cumulativos</li>
+                <li>1 aula diária de inglês focado no mercado tech</li>
+                <li>2 mentorias semanais de soft skills.</li>
+              </ul>
+                  <div>
+                    <h2>$200 E-coins</h2>
+                    <a href="./login.html" class="btn btn-primary">Assine</a>
+                  </div>
+            </div>
+          
+          </section>
+
           </div>
+
+  
     </main>
 
     

@@ -64,32 +64,34 @@ body main {
     padding: 30px;
 }
 
-body main .card {
-    border-radius: 15px;
-    background-color: rgba(255, 255, 255, .5);
-    -webkit-backdrop-filter: blur(2em);
-    backdrop-filter: blur(2em);
+body main .dif-card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px -2px rgb(0 0 0 / 16%);
+    border-radius: 24px;
+    padding: 20px;
+    padding-right: 24px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0;
 }
 
-body main .card img {
-    border-radius: 8px;
+body main .dif-icon {
     padding: 10px;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    background: #1aa7d2;
+    border-radius: 50%;
 }
 
-body main .card .mg-top {
-    margin-top: 30px;
+body main .dif-icon img {
+    width: 50px;
+    height: 50px;
+}
 
+body main .dif-text {
+    padding: 10px;
 }
 
 
-body main .card:hover {
-    background-color: #146a85;
-    color: white;
-    cursor: pointer;
-}
 
 body main section {
     padding: 30px;
@@ -101,22 +103,44 @@ body main section {
 
 }
 
-body main section .imgct{
-    border-radius: 50%;
-    background-color: #3d7e92;
-    margin: auto;
-    width: fit-content;
-    padding: 10px;
-
+body main section .cartao {
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 25px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .5);
+    -webkit-backdrop-filter: blur(2em);
+    backdrop-filter: blur(2em);
+    justify-content: space-between;
 }
 
-body main section .img-plan {
+
+body main section .cartao img {
     width: 100px;
+    height: 100px;
+    margin: 0 auto;
 }
 
+body main section .cartao a {
+    width: 80px;
+}
 
+body main section .cartao:hover {
+    background-color: white;
+    cursor: pointer;
+}
 
-
+body main .planos {
+    /* background:rgb(25, 121, 142); */
+    border-radius: 25px;
+    padding: 25px;
+    gap: 15px;
+    height: 550px;
+    align-items: center;
+    
+}
 
 body section #carouselExampleCaptions img {
     width: 300px;
@@ -126,7 +150,6 @@ body section #carouselExampleCaptions img {
 }
 
 body section #carouselExampleCaptions {
-    border: 1px solid red;
     align-items: center;
     padding: 20px;
 }
