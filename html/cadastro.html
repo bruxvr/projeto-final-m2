@@ -5,61 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="../css/cadastro.css">
 </head>
 <body>
     <header>
-        <h2><a href="#" class="logo"><img src="../assets/logo.png" alt=""></a></h2>
-        <div class="navegacao">
-            <a href="../index.html">Home</a>
-            <a href="/html/login.html">Login</a>
-            <a href="./cadastro.html">Cadastro</a>
-            <a href="">Planos</a>
-            <a href="">Contatos</a>
-        </div>
+        <nav class="navbar navbar-expand-lg  fixed-top">
+            <div class="container-fluid cabecalho">
+                <img src="../assets/logo.png" alt="Logo da empresa Solucione" width="134" height="36">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end  " id="navbarNav">
+                <ul class="navbar-nav navegador">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Cadastro</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Planos</a>                  
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contatos</a>                  
+                </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <div class="main-login">
-        <div class="left-login">
-            <h1>Faça seu cadastro e entre <br> para o nosso time SOLUCION-E</h1>
-            <img src="../imagens/figure.svg" alt="figura">
-        </div>
-        <div class="right-login">
-            <div class="card-login">
-                <h1>FAÇA SEU CADASTRO</h1>
-                <div class="text-field">
-                    <label for="usuario">Nome completo</label>
-                    <input type="text" name="nome" placeholder="Nome completo">
-                </div>
+        <nav >
+            <div class="right-login">
+                <div class="card-login">
+                    <h1>FAÇA SEU CADASTRO</h1>
+                    <div class="text-field">
+                        <label for="usuario">Nome completo</label>
+                        <input type="text" name="nome" placeholder="Nome completo">
+                    </div>
 
-                <div class="text-field">
-                    <label for="RG">RG</label>
-                    <input type="RG" name="RG" placeholder="RG">
-                </div>
+                    <div class="text-field">
+                        <label for="RG">RG</label>
+                        <input type="RG" name="RG" placeholder="RG">
+                    </div>
 
-                <div class="text-field">
-                    <label for="data de nascimento">Data de nascimento </label>
-                    <input type="date" name="data" placeholder="Data de nascimento">
-                </div>
+                    <div class="text-field">
+                        <label for="data de nascimento">Data de nascimento </label>
+                        <input type="date" name="data" placeholder="Data de nascimento">
+                    </div>
 
-                <div class="text-field">
-                    <label for="email">Email </label>
-                    <input type="email" name="email" placeholder="Email">
-                </div>
+                    <div class="text-field">
+                        <label for="email">Email </label>
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
 
-                <div class="text-field">
-                    <label for="senha>Senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha"> 
-                </div>
+                    <div class="text-field">
+                        <label for="Senha">Senha</label>
+                        <input type="password" name="senha" placeholder="Senha"> 
+                    </div>
 
-                <div class="text-field">
-                    <label for="senha>Senha">Confirme sua senha</label>
-                    <input type="password" name="senha" placeholder="Senha"> 
+                    <div class="text-field">
+                        <label for="Senha">Confirme sua senha</label>
+                        <input type="password" name="senha" placeholder="Senha"> 
+                    </div>
+                    <div class="text-field">
+                        <label for="CEP">CEP</label>
+                        <input type="number" name="CEP" placeholder="Insira seu CEP"> 
+                    </div>
+                    <div class="text-field">
+                        <label for="endereco">Endereço</label>
+                        <input type="text" name="endereco" placeholder="endereco"> 
+                    </div>
+                    <div class="text-field">
+                        <label for="number">Número</label>
+                        <input type="number" name="number" placeholder="Número da casa/prédop"> 
+                    </div>
+                    <div class="text-field">
+                        <label for="Senha">Bairro</label>
+                        <input type="bairo" name="bairro" placeholder="bairro"> 
+                    </div>
+                    <button class="btn-login">ENVIAR</button>
                 </div>
-                <button class="btn-login">ENVIAR</button>
             </div>
-        </div>
-
+        </nav>
     </div>
 </body>
 </html>
