@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    padding: 0;
+    padding: 10px;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
@@ -14,47 +14,32 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(./imagens/fundo.png);
+    background: url(./assets/fundobranco.png);
     background-size:cover ;
     background-position: center;
 
 }
 
-header{
-    position: relative;
-    top: 0;
-    width: 100%;
-    padding: 30px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar {
+    background: none;
+    padding: 15px;
 }
 
-header .logo{
-    position: relative;
-    color: #000;
-    font-size: 30px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 1px;
+.navegador a {
+color: #000;
 }
 
-header .navegacao a{
-    color: #000;
-    text-decoration: none;
-    font-weight: 500;
-    letter-spacing: 1px;
-    padding: 2px 15px;
+nav{
+  margin-bottom: 50px;
 }
 
-header .navegacao a:not(:last-child){
-    margin-right: 30px;
-  }
-  
-  header .navegacao a:hover{
-    background: #fff;
-  }
+
+nav h2{
+  margin-top: 30px;
+  font-size: 25px;
+  color: #3A506B;
+}
+
   
   .conteudo{
     max-width: 650px;
@@ -96,29 +81,6 @@ header .navegacao a:not(:last-child){
   
   .conteudo .informacao-btn:hover{
     background: #0C4F60;
-  }
-  
-  .icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-  }
-  
-  .icons a{
-    position: relative;
-    color: #111;
-    font-size: 40px;
-    transition: 0.3s;
-    transition-property: transform;
-  }
-  
-  .icons a:not(:last-child){
-    margin-right: 60px;
-  }
-  
-  .icons a:hover{
-    transform: scale(1.5);
   }
   
   #check{
