@@ -14,8 +14,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(../assets/fundo.jpeg);
-    background-size:cover ;
+    background: url(../assets/bg.png);
+    background-size:cover;
     background-position: center;
 
 }
