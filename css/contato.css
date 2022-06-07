@@ -4,6 +4,16 @@
 padding: 0%; 
 text-align: center;
 
+header{
+    position: relative;
+    top: 0;
+    width: 85%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 }
 .navbar {
     background: none;
@@ -13,6 +23,7 @@ text-align: center;
 .navegador a {
 color: #000;
 }
+
 body{
     font-family: "Poppins", sans-serif;
     background: url(../assets/fundobranco.png);
