@@ -38,4 +38,7 @@ function face(){
 }
 
 // VALIDADOR DE SENHA
+const valSenha = document.getElementById('senha')
+const valSenhaConf = document.getElementById('senhaConf')
+
 
