@@ -6,8 +6,11 @@ text-align: center;
 
 }
 .navbar {
-    background: none;
+    background: #d4eaf4;
     padding: 15px;
+}
+.navbar-toggler{
+    background: #cfe6f0;
 }
 
 .navegador a {
