@@ -58,7 +58,7 @@ Gostei bastante do resultado do nosso projeto e da organização do squad.” Br
 
 Depoimento Carol
 
-Depoimento Leob
+"Os desafios impostos por este projeto, chegou a me fazer duvidar da minha capacidade de aplicar os conteúdos e ideias vistos durante o modulo. Porém percebi que cada parte do projeto que eu não sabia fazer ou deu erro, me serviu de aprendizado, não de forma natural e fluída, porém foi um passo de grande importância, pois com os erros do nosso caminho que aprendemos a continuar insistindo para poder crescer. Ao término do projeto, apenas pude sentir gratidão, alívio e uma sensação de crescimento pessoal e perceber a minha resiliência durante o caminho." Leonardo Iplinsky
 
 “Com esse projeto pude colocar todo aprendizado que obtive nos últimos meses com a Resilia, o sentimento de gratidão é imenso por todo caminho trilhado até aqui, o projeto é resultado do esforço e dedicação de cada integrante do squad 8, agradeço de coração por essa oportunidade” Isabella Oliveira
 
