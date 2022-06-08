@@ -39,8 +39,8 @@ function face(){
 
 // VALIDADOR DE SENHA
 
-const senha = document.getElementById('senha').value()
-const valSenha = document.getElementById('valSenha').value()
+const senha = document.getElementById('#senha').value()
+const valSenha = document.getElementById('#valSenha').value()
 
 if (senha === valSenha) {
     return true
