@@ -40,7 +40,7 @@
           </div>
         </nav>
   </header>
-    <main class="container ">
+    <form class="container ">
         <h1 class="title">Faça seu cadastro</h1>
         <h2 class="title-h2">Venha ser parte da SOLUCION-E, a  plataforma perfeita para você </h2>
         <div class="row">
@@ -102,20 +102,20 @@
         </div>
         <div class="row">
           <div class="inputbox">
-            <input type="password" id="senha"  required>
+            <input type="password" id="senha" minlength="8"  required>
             <label for="Senha">Senha</label>
           </div>
           <div class="inputbox">
-            <input type="password" id="valSenha"  required>
+            <input type="password" id="valSenha" minlength="8" required>
             <label for="passwordConfirm">Confirme sua senha</label>
           </div>
         </div>
 
         <div class="row">
-            <button type="submit" id="btnEnviar">Salvar</button>
+            <button type="submit" id="btnEnviar">Enviar</button>
         </div>
 
-    </main>
+      </form>
 
     <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
