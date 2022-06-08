@@ -11,7 +11,7 @@
     background: url(/imagens/fundobranco.png) no-repeat center center fixed;
 } */
 .backgorund{
-    background: url(/imagens/fundobranco.png) no-repeat center center fixed;
+    background: url(../assets/fundobranco.png) no-repeat center center fixed;
     background-size: cover;
     width: 100%;
 }
