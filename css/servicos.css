@@ -20,7 +20,7 @@ body{
 
 }
 
-body header{
+/* body header{
     position: relative;
     top: 0;
     width: 100%;
@@ -54,7 +54,12 @@ header .navegacao a:not(:last-child){
   
 header .navegacao a:hover{
     background: rgb(6, 200, 243);
-  }
+  } */
+
+.navbar {
+    background: #d4eaf4;
+    padding: 15px;
+}
 
 body {
     padding: 10px;
