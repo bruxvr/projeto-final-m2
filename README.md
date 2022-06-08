@@ -1,16 +1,5 @@
 # Empresa: Solucion-E  
 
-<img src="colocar print da página home ou gif" alt="#">
-
-
-###Tecnologias utilizadas
-
-https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
-https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white
-
 ## Sobre
 
 A Solucion-E  trabalha com um sistema de pagamento e serviço de qualidade processado, de forma que caiba no aluno e que seja justo com a qualificação do profissional do serviço passado um processo de recrutamento, este é  o projeto de uma empresa de tecnologia criada para conclusão do módulo II do curso de Web Dev FullStack da Resilia. 
@@ -53,11 +42,13 @@ Este projeto está sob a licença de Bruna Xavier - veja o arquivo [LICENSE.md](
 
 ## 💛 Depoimentos
 
-Depoimento Bruna
+"A experiência foi muito boa, porque aprendi muito não só de tech, mas principalmente de soft. Trabalhar em equipe, em especial utilizando tecnologias recém aprendidas como APIs, frameworks e desenvolvimento em conjunto por meio do Git e Github foi bem desafiador, mas também muito enriquecedor.
+Gostei bastante do resultado do nosso projeto e da organização do squad." Bruna Xavier
 
-Depoimento Carol
 
-Depoimento Leo
+"Assim que nos unimos para dividir o projeto decidi me desafiar e tentar consumir a API. Sair da minha zona de conforto e mergulhar de cabeça em um conteúdo que eu estava tendo dificuldade foi desafiador e muitas vezes frustrantes. Tive que assistir as mesmas aulas repetidas vezes porque não entendia de primeira. Tive que abrir mão de momentos de lazer porque precisa me dedicar ao máximo para que o resultado fosse fruto do meu melhor. De forma alguma seria possível fazer isso sozinha. Foi necessário ajuda de desenvolvedores do youtube, meus colegas de equipe e até mesmo amigos da área. Sozinha também poderia andar, mas acompanhada fui bem mais longe. E não há dúvidas de que foi um projeto importante para meu crescimento como desenvolvedora." Caroline Araújo
+
+"Os desafios impostos por este projeto, chegou a me fazer duvidar da minha capacidade de aplicar os conteúdos e ideias vistos durante o modulo. Porém percebi que cada parte do projeto que eu não sabia fazer ou deu erro, me serviu de aprendizado, não de forma natural e fluída, porém foi um passo de grande importância, pois com os erros do nosso caminho que aprendemos a continuar insistindo para poder crescer. Ao término do projeto, apenas pude sentir gratidão, alívio e uma sensação de crescimento pessoal e perceber a minha resiliência durante o caminho." Leonardo Iplinsky
 
 “Com esse projeto pude colocar todo aprendizado que obtive nos últimos meses com a Resilia, o sentimento de gratidão é imenso por todo caminho trilhado até aqui, o projeto é resultado do esforço e dedicação de cada integrante do squad 8, agradeço de coração por essa oportunidade” Isabella Oliveira
 
@@ -67,8 +58,8 @@ Depoimento Leo
 
 ## 💌 Autores
 
-[Bruna Xavier](https://github.com/bruxvr)
-[Caroline Araújo](https://github.com/carolfranca0310) 
-[Leonardo Iplinsky](https://github.com/IplinskyLeo) 
-[Isabella Oliveira](https://github.com/isabellaoliv) 
+<p>[Bruna Xavier](https://github.com/bruxvr)</p>
+<p>[Caroline Araújo](https://github.com/carolfranca0310) </p>
+<p>[Leonardo Iplinsky](https://github.com/IplinskyLeo) </p>
+<p>[Isabella Oliveira](https://github.com/isabellaoliv) </p>
 
