@@ -1,7 +1,7 @@
 console.log('oi')
 
 const btn = document.getElementById('btnEnviar');
-btn.addEventListener('click', function (e){
+btn.addEventListener.on('click', function (e){
     e.preventDefault
 
     let name = document.querySelector('#Oemail');
@@ -38,4 +38,16 @@ function face(){
 }
 
 // VALIDADOR DE SENHA
+const valSenha = document.getElementById('senha')
+const valSenhaConf = document.getElementById('senhaConf')
 
+
+const senha = document.getElementById('senha').value()
+const valSenha = document.getElementById('valSenha').value()
+valSenha.on('change', ()=>{
+    if (senha === valSenha) {
+        return true
+    } else {
+        return alert('As senhas devem coincidir!')
+    }
+})
