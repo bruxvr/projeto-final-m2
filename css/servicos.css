@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Zen+Loop&display=swap');
 
+@media (max-width: 1200px) {
+    .planos {
+        flex-wrap: wrap;
+
+    }
+}
+
+
 *{
     margin: 0;
     padding: 0;
