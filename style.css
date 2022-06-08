@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    padding: 10px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
@@ -21,8 +21,9 @@ body{
 }
 
 .navbar {
-    background: none;
-    padding: 15px;
+  background: #d4eaf4;
+  padding: 15px;
+  width: 100%;
 }
 
 .navegador a {
