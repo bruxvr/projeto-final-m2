@@ -45,7 +45,7 @@ const valSenha = document.getElementById('valSenha').value()
 if (senha === valSenha) {
     return true
 } else {
-    return 
+    return alert('As senhas devem coincidir!')
 }
 
 
