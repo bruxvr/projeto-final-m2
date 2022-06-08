@@ -4,6 +4,7 @@
 padding: 0%; 
 text-align: center;
 
+
 }
 .navbar {
     background: #d4eaf4;
@@ -16,6 +17,7 @@ text-align: center;
 .navegador a {
 color: #000;
 }
+
 body{
     font-family: "Poppins", sans-serif;
     background: url(../assets/fundobranco.png);

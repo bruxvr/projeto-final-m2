@@ -36,3 +36,9 @@ function goo(){
 function face(){
     window.location.href = "http://www.facebook.com/";
 }
+
+// VALIDADOR DE SENHA
+const valSenha = document.getElementById('senha')
+const valSenhaConf = document.getElementById('senhaConf')
+
+
